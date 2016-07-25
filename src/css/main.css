@@ -1,0 +1,135 @@
+body{
+  font-family: sans-serif;
+  padding-top: 50px;
+  background: #2B2B2B;
+  color: #F6F6F6;
+}
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.jumbotron {
+  color: #2B2B2B;
+}
+
+.fa {
+  color: #2B2B2B;
+  margin-top: 5%;
+}
+
+.articleRepeat {
+  margin-top: 20px;
+}
+
+.articleTitle,.modal-header {
+  font-size: 1.5em;
+  color: #000;
+  font-family: 'Muli', sans-serif;
+}
+
+.mainTitle,
+.abstract{
+  margin-top: 15px;
+}
+
+.mainTitle {
+  color: #E9E581;
+  font-family: 'Muli', sans-serif;
+}
+
+.modalInfo {
+  color: black;
+}
+
+.abstract{
+  margin-bottom: 20px;
+}
+
+.abstract {
+  color: #545454;
+}
+
+.articleCategory {
+  font-size: 0.5em;
+}
+
+.modal-image {
+  width: 100%;
+  height: 300px;
+}
+
+.modalA {
+  color: white;
+}
+
+.caption {
+  font-size: 10px;
+  color: black;
+}
+
+.footer{
+  color: #2B2B2B;
+  margin-bottom: 10px;
+  width: 120%;
+  margin-left: -5%;
+  margin-bottom: -5%;
+}
+
+.nyTimesImage {
+  margin-bottom: -2%;
+}
+
+.copyright {
+  margin-top: 10px;
+  color: #F6F6F6;
+}
+
+.mainTiles {
+  margin-bottom: 20%;
+}
+
+
+@media (max-width: 800px) {
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .modalInfo {
+      text-align: center;
+    }
+
+    .moreInfoButton{
+      margin-right:0%
+    }
+
+    .modal-dialog {
+      text-align: center;
+    }
+
+    .articleImages {
+      display: none;
+    }
+
+    .footer{
+      float:right;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px){
+
+  .articleImages {
+    display: none;
+  }
+}

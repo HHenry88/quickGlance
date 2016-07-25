@@ -1,0 +1,26 @@
+<div id="menu-bar" class="navbar navbar-inverse navbar-fixed-top" ng-controller="headerController as header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"></h1>Quick Glance: Today's Top Stories</h1></a>
+    <button class=" navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class=" collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-right" >
+        <li><a href="#/">Main Page</a></li>
+        <li><a href="#/worldnews">World News</a></li>
+        <li><a href="#/technology">Technology</a></li>
+        <li><a href="#/sports">Sports</a></li>
+        <li class="dropdown">
+          <a class="btn dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+            More
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu " aria-labelled-by="dropdownmenu">
+              <li ng-repeat="more in header.moreData"><a href="#/more/{{more}}" ng-click="moreItemSelected(more)">{{more}}</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

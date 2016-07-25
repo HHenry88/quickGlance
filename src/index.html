@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New York Times | Top Stories</title>
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+    <!-- Muli font-->
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+    <!-- custom CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/f81740278d.js"></script>
+
+
+
+  </head>
+  <body ng-app="myApp" class="container">
+
+  <header ng-include="'header/header.html'"></header>
+  <main ng-view></main>
+  <footer ng-include="'footer/footer.html'"></footer>
+
+
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-route.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-animate.min.js"></script>
+
+   <!-- modules -->
+   <script src="js/app.js"></script>
+   <script src="sports/sports.module.js"></script>
+   <script src="technology/tech.module.js"></script>
+   <script src="worldnews/worldnews.module.js"></script>
+   <script src="more/more.module.js"></script>
+
+   <!-- routes-->
+   <script src="main/mainpageRoute.js"></script>
+   <script src="sports/sportsRoute.js"></script>
+   <script src="technology/techRoute.js"></script>
+   <script src="worldnews/worldnewsRoute.js"></script>
+   <script src="more/moreRoute.js"></script>
+
+   <!-- controllers -->
+   <script src="sports/sportsController.js"></script>
+   <script src="technology/techController.js"></script>
+   <script src="worldnews/worldnewsController.js"></script>
+   <script src="header/headerController.js"></script>
+   <script src="more/moreController.js"></script>
+
+   </script>
+   </script>
+  </body>
+</html>
